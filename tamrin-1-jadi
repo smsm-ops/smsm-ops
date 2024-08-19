@@ -1,0 +1,12 @@
+import random
+a = random.randint(1,99)
+b = int(input('adad ro hads bezan '))
+print (b)
+while a!=b:
+    if b>a:
+        print ('kochikesh kon')
+    elif a>b:
+            print ('bozorgesh kon')
+    b=int(input('dobare adad begoo '))
+if a==b:
+    print ('afarin')
