@@ -1,0 +1,16 @@
+import random
+x = 1
+y = 100
+a = random.randint(x,y)
+print (a)
+b = (input(' ok __or__ b or k ? '))
+
+while b!=('ok'):
+    if (b==('k')):
+        y=a+1
+    elif b==('b'):
+        x=a+1
+    a = random.randint(x,y)
+    print (a)
+    b = (input(' ok __or__ b or k ? '))
+print ('eshgh kardi???')        
